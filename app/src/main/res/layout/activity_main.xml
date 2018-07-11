@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Country"
+        android:id="@+id/actv"
+        android:background="@drawable/border"
+        android:layout_margin="5sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:textSize="25sp"
+        android:id="@+id/b1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whatsapp"
+        android:textSize="25sp"
+        android:id="@+id/b2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copy Message"
+        android:textSize="25sp"
+        android:id="@+id/b3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dial a Number"
+        android:textSize="25sp"
+        android:id="@+id/b4"/>
+
+</LinearLayout>
